@@ -2,12 +2,10 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import CameraCapture from "@/components/CameraCapture";
 import FlexContainer from "@/components/FlexContainer";
-import ImageEditor from "@/components/ImageEditor";
 
 import NextButton from "@/components/NextButton";
 import Timeline from "@/components/Timeline";
 import { cn, getSizeFactor, loadImage } from "@/lib/utils";
-import { Divider } from "@nextui-org/react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import Webcam from "react-webcam";
